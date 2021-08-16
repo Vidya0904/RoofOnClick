@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:text="Enter your Information"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"/>
+    
+    <EditText
+        android:id="@+id/ownerprofileName"
+        android:hint="Enter your Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/owndialogname"
+        android:drawablePadding="15dp"
+        android:inputType="textCapWords"/>
+
+    <EditText
+        android:id="@+id/ownerprofileMobileno"
+        android:hint="Enter your Mobile No."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/owndialogmobile"
+        android:drawablePadding="15dp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/ownerprofileaddress"
+        android:hint="Enter your Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/owndialogaddress"
+        android:drawablePadding="15dp"
+        android:inputType="textCapSentences"/>
+
+    <EditText
+        android:id="@+id/ownerprofilecity"
+        android:hint="Enter your City"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/owndialogcity"
+        android:drawablePadding="15dp"
+        android:inputType="textCapSentences"/>
+
+    <EditText
+        android:id="@+id/ownerprofilestate"
+        android:hint="Enter your State"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/owndialogstate"
+        android:drawablePadding="15dp"
+        android:inputType="textCapSentences"/>
+</LinearLayout>

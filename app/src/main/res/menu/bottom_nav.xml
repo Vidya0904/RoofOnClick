@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/hm"
+        android:title="Home"
+        android:icon="@drawable/ic_ownerhome"/>
+
+    <item android:id="@+id/addroom"
+        android:title="Add Room"
+        android:icon="@drawable/ic_oweraddroom"/>
+
+    <item android:id="@+id/ownerprofile"
+        android:title="Owner Profile"
+        android:icon="@drawable/ic_ownerprofile"/>
+
+    <item android:id="@+id/custlist"
+        android:title="Customer List"
+        android:icon="@drawable/ic_ownercustlist"/>
+
+</menu>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.roofonclick"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="25"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/yellowhomeicon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/yellowhomeicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.roofonclick.Activities.SplashScreenActivity"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.roofonclick.Activities.CustomerHomeActivity"
+            android:label="@string/title_activity_customer_home"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.roofonclick.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.example.roofonclick.Activities.RegistrationActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.example.roofonclick.Activities.Login_Activity"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.example.roofonclick.Activities.Owner_Ativity"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.example.roofonclick.Activities.CustomerHomeDetailsActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.example.roofonclick.Activities.CustomerRequestViewActivity"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.example.roofonclick.Activities.CustomerSearchDetailActivity"
+            android:theme="@style/AppTheme" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.example.roofonclick.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

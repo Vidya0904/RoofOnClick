@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Enter your Information"
+        android:textColor="#006064"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/prodialogname"
+        android:hint="Enter your Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textCapWords"
+        android:drawableLeft="@drawable/dialogname"
+        android:drawablePadding="15dp"/>
+
+    <EditText
+        android:id="@+id/prodialogmobile"
+        android:hint="Enter your Mobile No."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:drawableLeft="@drawable/dialogmobile"
+        android:drawablePadding="15dp"/>
+
+    <EditText
+        android:id="@+id/prodialogcity"
+        android:hint="Enter your City"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textCapSentences"
+        android:drawableLeft="@drawable/dialogcity"
+        android:drawablePadding="15dp"/>
+
+    <EditText
+        android:id="@+id/prodialogaddress"
+        android:hint="Enter your Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="textCapSentences"
+        android:drawableLeft="@drawable/dialogaddress"
+        android:drawablePadding="15dp"/>
+
+</LinearLayout>

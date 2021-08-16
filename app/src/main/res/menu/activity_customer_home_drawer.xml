@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item
+        android:id="@+id/custhome"
+        android:title="Home"
+        android:icon="@drawable/ic_custhome"/>
+
+    <item
+        android:id="@+id/custprofile"
+        android:title="Profile"
+        android:icon="@drawable/ic_custprofile"/>
+
+    <item
+        android:id="@+id/custfav"
+        android:title="Favourite"
+        android:icon="@drawable/ic_custfav"/>
+
+    <item
+        android:id="@+id/custsearch"
+        android:title="Search"
+        android:icon="@drawable/ic_custsearch"/>
+
+    <item
+        android:id="@+id/custreq"
+        android:title="Request"
+        android:icon="@drawable/ic_custrequest"/>
+</menu>
