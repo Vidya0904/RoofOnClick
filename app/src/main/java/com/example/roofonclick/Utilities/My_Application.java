@@ -4,10 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.example.roofonclick.Adapters.OwnerRequestAdapter;
-
-public class My_Application extends Application
-{
+public class My_Application {
     private static My_Application my_application_Instance;
     private SharedPreferences sharedPreferences;
 

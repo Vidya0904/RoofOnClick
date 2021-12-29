@@ -1,4 +1,5 @@
-package com.example.roofonclick.Fragments;
+package com.example.roofonclick
+        .Fragments;
 
 import android.Manifest;
 import android.app.AlertDialog;
